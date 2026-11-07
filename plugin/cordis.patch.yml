@@ -1,0 +1,6 @@
+# 快手作品分析面板。
+# profileDir 是持久化浏览器目录（扫码登录一次的登录态存在这里）；
+# dataDir 缓存最近一次采集结果；maxWorks 控制每次抓多少条作品详情。
+- insert:
+    - id: kuaishou-analysis
+      name: '@local/kuaishou-analysis'

@@ -1,0 +1,14 @@
+# 浏览器登录态（快手创作者平台的 cookies）——绝不上传
+.profile/
+
+# 采集过程的临时目录
+tmp/
+
+# 运行时锁
+data/sync.lock
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.log
+.DS_Store
